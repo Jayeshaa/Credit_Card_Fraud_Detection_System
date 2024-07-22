@@ -22,7 +22,7 @@ Local Outlier Factor (LOF): Identifies anomalies by measuring the local density 
 
 Deployment
 
-Streamlit: Provides an interactive web interface where users can input transaction details and receive immediate fraud detection results.
+Flask: Provides an interactive web interface where users can input transaction details and receive immediate fraud detection results.
 
 Set up Twilio:
 
@@ -49,7 +49,7 @@ Integrates with Twilio to send SMS alerts to users if a transaction is detected 
 Notifications include details about the transaction and instructions for further actions.
 Web Interface:
 
-Provides a Streamlit interface where users can input transaction details and receive fraud predictions.
+Provides a Flask interface where users can input time and amount and receive fraud predictions.
 Allows users to see if their transaction is flagged as fraudulent and get real-time alerts.
 
 # Screenshots
